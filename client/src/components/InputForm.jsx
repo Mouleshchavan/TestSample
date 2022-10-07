@@ -1,6 +1,6 @@
 const InputForm = ({ handleSubmit, handleChange, userData,buttonName }) => {
   return (
-    <div className="w-25 shadow p-3 mb-5 bg-white rounded p-4 w-25">
+    <div className="w-35 p-3 mb-9 bg-gray rounded p-12 w-25">
       <form onSubmit={handleSubmit}>
         <div className="form-group my-4">
           <label className="my-2" htmlFor="exampleInputEmail1">
@@ -11,7 +11,7 @@ const InputForm = ({ handleSubmit, handleChange, userData,buttonName }) => {
             className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            placeholder="Enter user name"
+            placeholder="Enter name"
             name="userName"
             required
             onChange={handleChange}
@@ -26,7 +26,7 @@ const InputForm = ({ handleSubmit, handleChange, userData,buttonName }) => {
             type="text"
             className="form-control"
             id="exampleInputPassword1"
-            placeholder="Enter color name"
+            placeholder="Color name"
             name="colorName"
             required
             onChange={handleChange}

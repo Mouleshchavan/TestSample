@@ -29,7 +29,7 @@ const HomePage = () => {
   };
   return (
    <div className="d-flex flex-column align-items-center mt-5 ">
-    <h1 className="py-4">Create New User</h1>
+    <h1 className="py-4">New User</h1>
     <InputForm handleChange={handleChange} handleSubmit={handleSubmit} userData={userData} buttonName={ "SUBMIT"} />
       <Table />
     </div>

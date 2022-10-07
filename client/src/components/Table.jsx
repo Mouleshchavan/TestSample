@@ -34,15 +34,15 @@ const Table = () => {
   }
 
   return (
-    <div className="px-5 w-100">
+    <div className="px-5 w-10">
       {loading && <Spinner />}
-      <table className="table table-striped">
+      <table className="table table-striped" >
         <thead>
           <tr>
-            <th scope="col">No</th>
+            <th scope="col">Index</th>
             <th scope="col">User Name</th>
             <th scope="col">Color Name</th>
-            <th scope="col">Edit</th>
+            <th scope="col">Edit Name</th>
             <th scope="col">Delete</th>
           </tr>
         </thead>
